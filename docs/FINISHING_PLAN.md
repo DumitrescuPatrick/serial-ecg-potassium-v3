@@ -1,0 +1,11 @@
+# Fixed-pair descriptive/precision finishing plan —20November2026
+
+New folder; original V3 and every source unchanged. Downloads package inspection found historical436-pair documents,not the122/200/650V3 revised analysis. Use the existing local phase2_post_retrieval_v1 saved inputs/results. No effect-analysis or bootstrap function will be called. All14saved rows and primary estimates remain byte-preserved copies.
+
+Before precision results: verify one fixed pair/patient/group and122hyper/200hypo/650controls; controls disjoint,case-group overlap disclosed. Describe abnormal and paired-normal potassium separately by mean/SD,median/IQR and range. Controls retain chronological earlier/later distributions. No association/regression/subgroup tests.
+
+Numerical comparisons: nativefloat32 stored-template RMS reduction,cast-to-float64 reduction of the SAME stored templates,and original saved pre-cast double-precision extraction RMS. Preserve historicalcase float32+1e-12 andcontrol original-double implementation. Compare ECG log scores and fixed pair signed/absolute changes,never reweight/rebootstrap group effects. Report maxima/medians of absolute discrepancies by group and the maximum reconstruction error versus saved pair outcomes.
+
+Materiality guard fixed before check: stop if any count/identity/exposure mismatch or nonfinite result; saved-outcome reconstruction max error>1e-12; or bound on a case-minus-control weighted absolute-change contrast>1e-5logunits. The bound is max individual absolute-outcome discrepancy among cases plus max among controls; it applies to any convex fixed stratum weights/resamples without recalculating an effect. Additionally flag/stop if that bound could change the saved primary four-decimal point/CI display or zero-crossing interpretation. Passing this numerical guard is not clinical validation or an estimate of clinical importance. Do not alter methods/results after checking.
+
+Only if this check passes,finish manuscript/portal/figure/supplement using frozen saved results. Verify primary literature metadata,current official Cureus instructions,and local source-release evidence. Unknown versions/declarations remain unknown. No author/ethics/funding/conflict/AI-use declaration is invented. No journal submission.

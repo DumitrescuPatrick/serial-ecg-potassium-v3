@@ -1,0 +1,162 @@
+[
+  {
+    "file": ".gitignore",
+    "bytes": 99,
+    "sha256": "399314580e0febc0d5eda48eb57862cca7e3c293be629e8c79307035d86a5849"
+  },
+  {
+    "file": "README.md",
+    "bytes": 2707,
+    "sha256": "58e7bc14bde64f972f7cadd45f8bd7b2c0dc2412093e1e2094073a75a01dc343"
+  },
+  {
+    "file": "docs/FINISHING_PLAN.md",
+    "bytes": 2272,
+    "sha256": "7ef0b59a1a7f2806f651838c08173f6091479bff129f98fe8b7f95f02d973e98"
+  },
+  {
+    "file": "docs/FROZEN_PHASE1_PROTOCOL.md",
+    "bytes": 4841,
+    "sha256": "0378cad8d7125ef8c8656fc94b4acb949c7c7f9bcd13fa235c7c438348f9a5e8"
+  },
+  {
+    "file": "docs/PHASE2_ANALYSIS_PLAN.md",
+    "bytes": 5000,
+    "sha256": "dd6d35021b03705d5df5bccd1d3b6cd1b97ade3af9d599d876519245b7e15672"
+  },
+  {
+    "file": "docs/REFERENCES_VERIFIED.md",
+    "bytes": 1765,
+    "sha256": "d81135e519570d7518d777bbf191f53b269e3375da2622e11a94ddfcb0ed48f0"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 87,
+    "sha256": "a223c482cc5fee30538de0e122b83e509f61b739ddd1b2a4a7606e5ff3ff6bc3"
+  },
+  {
+    "file": "results/ANALYSIS_COMPLETED.json",
+    "bytes": 764,
+    "sha256": "2e57bd160f21794d72cc05abfa520fb97186cdd824b8d448ae9179bc087b1706"
+  },
+  {
+    "file": "results/CARE_SETTING.csv",
+    "bytes": 110,
+    "sha256": "16a97a38b66aad0b52f9d53ad65c24e81e408b0b857ecbac5e1d7f4680034357"
+  },
+  {
+    "file": "results/COMPLETE_SENSITIVITY_TABLE.csv",
+    "bytes": 2565,
+    "sha256": "460478ff903e3beabe340758f486cf11eb776d60be42207a6345a0726b626ffe"
+  },
+  {
+    "file": "results/ECG_LAB_TIMING.csv",
+    "bytes": 1052,
+    "sha256": "8cf835b345adec096c505f829d531924e2df9672216d0ce079b84eff7c9c4533"
+  },
+  {
+    "file": "results/EFFECTS.json",
+    "bytes": 28636,
+    "sha256": "383984f24c959b847c0f6ab4a9f532c15177a360a4ed55af9799b8e2fa75855b"
+  },
+  {
+    "file": "results/FIXED_PAIR_PRECISION_CHECK.json",
+    "bytes": 2941,
+    "sha256": "7a959e8279482f83e60d16284311afe42e8607e6efa45dcf607a12137152b73d"
+  },
+  {
+    "file": "results/POST_RETRIEVAL_ATTRITION.csv",
+    "bytes": 219,
+    "sha256": "26c31d85400e21bf0d1aae716949e894a9390e31944b47db2d89ef55a9c4b70e"
+  },
+  {
+    "file": "results/POTASSIUM_DISTRIBUTIONS.csv",
+    "bytes": 578,
+    "sha256": "b3dad87f1b82cc6ed9c8f53a7241c6e0ddc946de42c45f45394ad1c8f07b4f55"
+  },
+  {
+    "file": "results/PRECISION_DISCREPANCIES.csv",
+    "bytes": 890,
+    "sha256": "07092a7d07136ccbf40ecd3c71d666af7bcd5b4beda664a4b645ba9d953d4524"
+  },
+  {
+    "file": "results/QC_SUMMARY.json",
+    "bytes": 507,
+    "sha256": "86a367a381c7418d0b221a21e248f83c83b7974bec3336230d169dcdc4cc3d1b"
+  },
+  {
+    "file": "results/SAVED_RESULTS_LOCK.json",
+    "bytes": 289,
+    "sha256": "4c0d68db50332f1adc2235205c53a26dc7836ac6786daae63fbe2513df49821a"
+  },
+  {
+    "file": "results/SOURCE_COHORT_FLOW.csv",
+    "bytes": 408,
+    "sha256": "fb132659d94e35d8039cfa6829685c137168bff31d7d79018e64b38fc4c37fda"
+  },
+  {
+    "file": "results/SOURCE_INVENTORY.json",
+    "bytes": 3269,
+    "sha256": "5cf597198ed34e0fbb4d779ea5adc0ec64182b89802aab1ee02b191d15386a2b"
+  },
+  {
+    "file": "src/check_fixed_pairs.py",
+    "bytes": 6195,
+    "sha256": "c9b418a80a0e722640ddc9fc09331e8f5d7b4c8bd86aec57ce8f695331dc7439"
+  },
+  {
+    "file": "src/figure_flow.py",
+    "bytes": 1950,
+    "sha256": "0d3553058dd0dc78b93552429e8a5d7de0cb60bfbb2f6af04deb69e082f6fd80"
+  },
+  {
+    "file": "src/historical_methods/README.md",
+    "bytes": 693,
+    "sha256": "124da3c3d81a4298b40be1f18ecbb2e71635a9ac4f5e3f09f2b22152d1199279"
+  },
+  {
+    "file": "src/historical_methods/effects.py",
+    "bytes": 5716,
+    "sha256": "4c3f2bfa6e12eb86b82df49bd9b92127cc8e6408aa89e36f56b0599b132636c0"
+  },
+  {
+    "file": "src/historical_methods/frozen_effect.py",
+    "bytes": 1092,
+    "sha256": "81ebb1af9059d8101e440d1c1a1ae2c97a83f4b042a79ab8554292657305c5c2"
+  },
+  {
+    "file": "src/historical_methods/frozen_quality_instrumented.py",
+    "bytes": 3367,
+    "sha256": "a0eb1237a0b1aee9c74b318fa8dce01f2639b01e667a6fd88a709f58e1956488"
+  },
+  {
+    "file": "src/historical_methods/original_extractor_v2.py",
+    "bytes": 12318,
+    "sha256": "03ce00469e8e45faf9c83c01d2ebbdd2874590d1efc4ac43b13304fa0fb3480c"
+  },
+  {
+    "file": "src/historical_methods/phase1_cohort.py",
+    "bytes": 9684,
+    "sha256": "3d47bd4c41ae5596c5f4d7461f3de1914f96f6598e2eaae773641ddd33523880"
+  },
+  {
+    "file": "src/historical_methods/phase1_inventory.py",
+    "bytes": 2983,
+    "sha256": "34310fa3a1c6331d6aee3ce8d7c92aa2a21ed2fc52112c3c044a567f3bf2434f"
+  },
+  {
+    "file": "src/historical_methods/phase1_quality.py",
+    "bytes": 7121,
+    "sha256": "7445b5196d44cf66034b9eca1ec1a166729a65e8729b5274b1a5cf64de43c4b3"
+  },
+  {
+    "file": "src/reproduce_figures.py",
+    "bytes": 1592,
+    "sha256": "9903e9519c2271182596abedbc65f80d89952d4ac475cb9ac0b04d50936138fb"
+  },
+  {
+    "file": "tests/test_results.py",
+    "bytes": 1180,
+    "sha256": "2a5a857a41f2327056e89d100f03e08b8e2d49d2ae877dbf98afba4085cca2e0"
+  }
+]

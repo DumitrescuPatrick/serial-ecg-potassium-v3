@@ -1,0 +1,3 @@
+# Historical sources — not executed by finishing commands
+
+These files preserve the original effect function, score calculation, QC worker and extraction/cohort reference code for inspection. They require original authorized data, private products and original project layout. They are not an instruction to rerun or tune the saved effect analysis. Historical local project defaults are generic locations, not patient waveform manifests. Public aggregate reproduction uses ../reproduce_aggregate_outputs.py and never imports these modules. The original frozen effect source SHA-256 is in ANALYSIS_COMPLETED.json. The original V3 study remains the authoritative source-data execution record.

@@ -1,0 +1,1094 @@
+[
+  {
+    "group": "HYPERKALEMIA",
+    "analysis": "primary_30min",
+    "eligible_cases": 122,
+    "eligible_controls": 650,
+    "common_cases": 122,
+    "common_controls": 650,
+    "strata": 9,
+    "effect": 0.052202686520790124,
+    "CI95": [
+      -0.02103066687641991,
+      0.13212604682620446
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Primary frozen cohort",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 14,
+        "controls": 55,
+        "case_mean": 0.1911051310764212,
+        "control_mean": 0.25175399475867594
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 15,
+        "controls": 118,
+        "case_mean": 0.2187924797498593,
+        "control_mean": 0.22772043628497785
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 11,
+        "controls": 60,
+        "case_mean": 0.5426788819001743,
+        "control_mean": 0.26362799608861925
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 7,
+        "controls": 46,
+        "case_mean": 0.2695002716781309,
+        "control_mean": 0.28792365635022493
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 10,
+        "controls": 98,
+        "case_mean": 0.3897145381207655,
+        "control_mean": 0.22108089021641208
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 14,
+        "controls": 53,
+        "case_mean": 0.3587649506782899,
+        "control_mean": 0.3689813051980196
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 12,
+        "controls": 51,
+        "case_mean": 0.43055407155033426,
+        "control_mean": 0.27767968094925705
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 21,
+        "controls": 104,
+        "case_mean": 0.2780144390909751,
+        "control_mean": 0.21936429183971157
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 18,
+        "controls": 65,
+        "case_mean": 0.26631717737337895,
+        "control_mean": 0.38101694324203605
+      }
+    ]
+  },
+  {
+    "group": "HYPERKALEMIA",
+    "analysis": "both_labs_15min",
+    "eligible_cases": 41,
+    "eligible_controls": 220,
+    "common_cases": 39,
+    "common_controls": 201,
+    "strata": 8,
+    "effect": -0.046138133579824374,
+    "CI95": [
+      -0.10023039093296474,
+      0.011817888647072896
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Subset only;no new matches",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 7,
+        "controls": 23,
+        "case_mean": 0.1941783397827152,
+        "control_mean": 0.2134417704089567
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 7,
+        "controls": 42,
+        "case_mean": 0.20846226515824487,
+        "control_mean": 0.22650612852645918
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 4,
+        "controls": 26,
+        "case_mean": 0.17762420399264783,
+        "control_mean": 0.23348091526102843
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 3,
+        "controls": 31,
+        "case_mean": 0.11756238758379282,
+        "control_mean": 0.23278514625342298
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 4,
+        "controls": 17,
+        "case_mean": 0.11031810501906833,
+        "control_mean": 0.34221018114986645
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 3,
+        "controls": 13,
+        "case_mean": 0.5477714165649952,
+        "control_mean": 0.29899390232725165
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 6,
+        "controls": 31,
+        "case_mean": 0.2050740785318987,
+        "control_mean": 0.2114894628387817
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 5,
+        "controls": 18,
+        "case_mean": 0.34442262853436745,
+        "control_mean": 0.46340869238400295
+      }
+    ]
+  },
+  {
+    "group": "HYPERKALEMIA",
+    "analysis": "window_60min_frozen_matches",
+    "eligible_cases": 122,
+    "eligible_controls": 650,
+    "common_cases": 122,
+    "common_controls": 650,
+    "strata": 9,
+    "effect": 0.052202686520790124,
+    "CI95": [
+      -0.02103066687641991,
+      0.13212604682620446
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Identical by construction;not a newly linked60min cohort",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 14,
+        "controls": 55,
+        "case_mean": 0.1911051310764212,
+        "control_mean": 0.25175399475867594
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 15,
+        "controls": 118,
+        "case_mean": 0.2187924797498593,
+        "control_mean": 0.22772043628497785
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 11,
+        "controls": 60,
+        "case_mean": 0.5426788819001743,
+        "control_mean": 0.26362799608861925
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 7,
+        "controls": 46,
+        "case_mean": 0.2695002716781309,
+        "control_mean": 0.28792365635022493
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 10,
+        "controls": 98,
+        "case_mean": 0.3897145381207655,
+        "control_mean": 0.22108089021641208
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 14,
+        "controls": 53,
+        "case_mean": 0.3587649506782899,
+        "control_mean": 0.3689813051980196
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 12,
+        "controls": 51,
+        "case_mean": 0.43055407155033426,
+        "control_mean": 0.27767968094925705
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 21,
+        "controls": 104,
+        "case_mean": 0.2780144390909751,
+        "control_mean": 0.21936429183971157
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 18,
+        "controls": 65,
+        "case_mean": 0.26631717737337895,
+        "control_mean": 0.38101694324203605
+      }
+    ]
+  },
+  {
+    "group": "HYPERKALEMIA",
+    "analysis": "both_collections_at_or_before",
+    "eligible_cases": 28,
+    "eligible_controls": 145,
+    "common_cases": 26,
+    "common_controls": 105,
+    "strata": 7,
+    "effect": 0.09901923099461621,
+    "CI95": [
+      -0.031660989046795845,
+      0.259438628102915
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Mixed directions omitted",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 4,
+        "controls": 11,
+        "case_mean": 0.12496679483112393,
+        "control_mean": 0.17647037872434088
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 3,
+        "controls": 15,
+        "case_mean": 0.21094175140636842,
+        "control_mean": 0.2501206268467572
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 4,
+        "controls": 19,
+        "case_mean": 0.6642129548110625,
+        "control_mean": 0.18810816590366555
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 3,
+        "controls": 14,
+        "case_mean": 0.3555549252907344,
+        "control_mean": 0.18639857250919656
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 3,
+        "controls": 14,
+        "case_mean": 0.2798946676035337,
+        "control_mean": 0.26303766167116566
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 5,
+        "controls": 17,
+        "case_mean": 0.2549952795152897,
+        "control_mean": 0.16128793061203572
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 4,
+        "controls": 15,
+        "case_mean": 0.33794260318903513,
+        "control_mean": 0.45074001210401005
+      }
+    ]
+  },
+  {
+    "group": "HYPERKALEMIA",
+    "analysis": "both_collections_at_or_after",
+    "eligible_cases": 46,
+    "eligible_controls": 202,
+    "common_cases": 42,
+    "common_controls": 155,
+    "strata": 7,
+    "effect": 0.03599647597043889,
+    "CI95": [
+      -0.08247772444990424,
+      0.18349669478648759
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Mixed directions omitted;zero-gap pairs may overlap",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 6,
+        "controls": 19,
+        "case_mean": 0.16316577821097145,
+        "control_mean": 0.3208609146751036
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 5,
+        "controls": 36,
+        "case_mean": 0.23672262591379206,
+        "control_mean": 0.2168757107146325
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 6,
+        "controls": 20,
+        "case_mean": 0.8279246315610159,
+        "control_mean": 0.31150820713042404
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 7,
+        "controls": 19,
+        "case_mean": 0.29435190323357235,
+        "control_mean": 0.44172414571003055
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 4,
+        "controls": 16,
+        "case_mean": 0.42422660419654235,
+        "control_mean": 0.33089807071035365
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 6,
+        "controls": 30,
+        "case_mean": 0.28848610064278946,
+        "control_mean": 0.21444888388783936
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 8,
+        "controls": 15,
+        "case_mean": 0.15465132863946907,
+        "control_mean": 0.380081761900793
+      }
+    ]
+  },
+  {
+    "group": "HYPERKALEMIA",
+    "analysis": "exclude_hemolysis_mentions",
+    "eligible_cases": 106,
+    "eligible_controls": 634,
+    "common_cases": 106,
+    "common_controls": 634,
+    "strata": 9,
+    "effect": 0.05157397184352479,
+    "CI95": [
+      -0.01992384412891253,
+      0.13468241249039226
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Exclusion in both arms;text is unadjudicated",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 12,
+        "controls": 53,
+        "case_mean": 0.18637860333875003,
+        "control_mean": 0.23768830867812954
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 11,
+        "controls": 118,
+        "case_mean": 0.2232859180614323,
+        "control_mean": 0.22772043628497785
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 11,
+        "controls": 57,
+        "case_mean": 0.5426788819001743,
+        "control_mean": 0.26081404826210436
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 7,
+        "controls": 44,
+        "case_mean": 0.2695002716781309,
+        "control_mean": 0.28052165294836995
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 10,
+        "controls": 94,
+        "case_mean": 0.3897145381207655,
+        "control_mean": 0.2242500244651043
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 10,
+        "controls": 52,
+        "case_mean": 0.35648333304423435,
+        "control_mean": 0.36363093510314537
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 10,
+        "controls": 49,
+        "case_mean": 0.4276469696945312,
+        "control_mean": 0.2878900708876254
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 18,
+        "controls": 102,
+        "case_mean": 0.26790110074481727,
+        "control_mean": 0.22002810760052863
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 17,
+        "controls": 65,
+        "case_mean": 0.28018784511674577,
+        "control_mean": 0.38101694324203605
+      }
+    ]
+  },
+  {
+    "group": "HYPERKALEMIA",
+    "analysis": "exclude_source_time_disagreement",
+    "eligible_cases": 122,
+    "eligible_controls": 650,
+    "common_cases": 122,
+    "common_controls": 650,
+    "strata": 9,
+    "effect": 0.052202686520790124,
+    "CI95": [
+      -0.02103066687641991,
+      0.13212604682620446
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Already required for all primary/QC pairs;identical by construction",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 14,
+        "controls": 55,
+        "case_mean": 0.1911051310764212,
+        "control_mean": 0.25175399475867594
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 15,
+        "controls": 118,
+        "case_mean": 0.2187924797498593,
+        "control_mean": 0.22772043628497785
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 11,
+        "controls": 60,
+        "case_mean": 0.5426788819001743,
+        "control_mean": 0.26362799608861925
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 7,
+        "controls": 46,
+        "case_mean": 0.2695002716781309,
+        "control_mean": 0.28792365635022493
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 10,
+        "controls": 98,
+        "case_mean": 0.3897145381207655,
+        "control_mean": 0.22108089021641208
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 14,
+        "controls": 53,
+        "case_mean": 0.3587649506782899,
+        "control_mean": 0.3689813051980196
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 12,
+        "controls": 51,
+        "case_mean": 0.43055407155033426,
+        "control_mean": 0.27767968094925705
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 21,
+        "controls": 104,
+        "case_mean": 0.2780144390909751,
+        "control_mean": 0.21936429183971157
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 18,
+        "controls": 65,
+        "case_mean": 0.26631717737337895,
+        "control_mean": 0.38101694324203605
+      }
+    ]
+  },
+  {
+    "group": "HYPOKALEMIA",
+    "analysis": "primary_30min",
+    "eligible_cases": 200,
+    "eligible_controls": 650,
+    "common_cases": 200,
+    "common_controls": 650,
+    "strata": 9,
+    "effect": 0.019560229263734265,
+    "CI95": [
+      -0.01815551769248475,
+      0.05821115575633753
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Primary frozen cohort",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 19,
+        "controls": 55,
+        "case_mean": 0.2591720311408208,
+        "control_mean": 0.25175399475867594
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 32,
+        "controls": 118,
+        "case_mean": 0.19126977956537572,
+        "control_mean": 0.22772043628497785
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 11,
+        "controls": 60,
+        "case_mean": 0.3006722330033362,
+        "control_mean": 0.26362799608861925
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 16,
+        "controls": 46,
+        "case_mean": 0.38549054587417797,
+        "control_mean": 0.28792365635022493
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 26,
+        "controls": 98,
+        "case_mean": 0.26938571728588506,
+        "control_mean": 0.22108089021641208
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 17,
+        "controls": 53,
+        "case_mean": 0.4421686979200994,
+        "control_mean": 0.3689813051980196
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 17,
+        "controls": 51,
+        "case_mean": 0.31675907336849174,
+        "control_mean": 0.27767968094925705
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 39,
+        "controls": 104,
+        "case_mean": 0.22006929639630604,
+        "control_mean": 0.21936429183971157
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 23,
+        "controls": 65,
+        "case_mean": 0.36897738979576106,
+        "control_mean": 0.38101694324203605
+      }
+    ]
+  },
+  {
+    "group": "HYPOKALEMIA",
+    "analysis": "both_labs_15min",
+    "eligible_cases": 73,
+    "eligible_controls": 220,
+    "common_cases": 71,
+    "common_controls": 207,
+    "strata": 8,
+    "effect": 0.03917411490131672,
+    "CI95": [
+      -0.02513852320286805,
+      0.10474413497992997
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Subset only;no new matches",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 6,
+        "controls": 23,
+        "case_mean": 0.20701512341928505,
+        "control_mean": 0.2134417704089567
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 13,
+        "controls": 42,
+        "case_mean": 0.24519879877267486,
+        "control_mean": 0.22650612852645918
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 4,
+        "controls": 26,
+        "case_mean": 0.3215909614899892,
+        "control_mean": 0.23348091526102843
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 3,
+        "controls": 19,
+        "case_mean": 0.3661299599672601,
+        "control_mean": 0.3194025362035731
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 10,
+        "controls": 31,
+        "case_mean": 0.3036186273106331,
+        "control_mean": 0.23278514625342298
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 7,
+        "controls": 17,
+        "case_mean": 0.38952073399707005,
+        "control_mean": 0.34221018114986645
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 21,
+        "controls": 31,
+        "case_mean": 0.20648836487774788,
+        "control_mean": 0.2114894628387817
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 7,
+        "controls": 18,
+        "case_mean": 0.5438529694477247,
+        "control_mean": 0.46340869238400295
+      }
+    ]
+  },
+  {
+    "group": "HYPOKALEMIA",
+    "analysis": "window_60min_frozen_matches",
+    "eligible_cases": 200,
+    "eligible_controls": 650,
+    "common_cases": 200,
+    "common_controls": 650,
+    "strata": 9,
+    "effect": 0.019560229263734265,
+    "CI95": [
+      -0.01815551769248475,
+      0.05821115575633753
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Identical by construction;not a newly linked60min cohort",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 19,
+        "controls": 55,
+        "case_mean": 0.2591720311408208,
+        "control_mean": 0.25175399475867594
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 32,
+        "controls": 118,
+        "case_mean": 0.19126977956537572,
+        "control_mean": 0.22772043628497785
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 11,
+        "controls": 60,
+        "case_mean": 0.3006722330033362,
+        "control_mean": 0.26362799608861925
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 16,
+        "controls": 46,
+        "case_mean": 0.38549054587417797,
+        "control_mean": 0.28792365635022493
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 26,
+        "controls": 98,
+        "case_mean": 0.26938571728588506,
+        "control_mean": 0.22108089021641208
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 17,
+        "controls": 53,
+        "case_mean": 0.4421686979200994,
+        "control_mean": 0.3689813051980196
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 17,
+        "controls": 51,
+        "case_mean": 0.31675907336849174,
+        "control_mean": 0.27767968094925705
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 39,
+        "controls": 104,
+        "case_mean": 0.22006929639630604,
+        "control_mean": 0.21936429183971157
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 23,
+        "controls": 65,
+        "case_mean": 0.36897738979576106,
+        "control_mean": 0.38101694324203605
+      }
+    ]
+  },
+  {
+    "group": "HYPOKALEMIA",
+    "analysis": "both_collections_at_or_before",
+    "eligible_cases": 37,
+    "eligible_controls": 145,
+    "common_cases": 36,
+    "common_controls": 130,
+    "strata": 8,
+    "effect": 0.01945768672775957,
+    "CI95": [
+      -0.056895389232393546,
+      0.09550071769842822
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Mixed directions omitted",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 3,
+        "controls": 11,
+        "case_mean": 0.14285979484646383,
+        "control_mean": 0.17647037872434088
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 5,
+        "controls": 31,
+        "case_mean": 0.19316232103490333,
+        "control_mean": 0.23512799121015612
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 5,
+        "controls": 9,
+        "case_mean": 0.390206993141338,
+        "control_mean": 0.30358162441682285
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 5,
+        "controls": 19,
+        "case_mean": 0.2839947163545008,
+        "control_mean": 0.18810816590366555
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 4,
+        "controls": 14,
+        "case_mean": 0.21405631692451527,
+        "control_mean": 0.18639857250919656
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 3,
+        "controls": 14,
+        "case_mean": 0.49820774192674183,
+        "control_mean": 0.26303766167116566
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 6,
+        "controls": 17,
+        "case_mean": 0.2008461726285863,
+        "control_mean": 0.16128793061203572
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 5,
+        "controls": 15,
+        "case_mean": 0.267179947833199,
+        "control_mean": 0.45074001210401005
+      }
+    ]
+  },
+  {
+    "group": "HYPOKALEMIA",
+    "analysis": "both_collections_at_or_after",
+    "eligible_cases": 76,
+    "eligible_controls": 202,
+    "common_cases": 74,
+    "common_controls": 182,
+    "strata": 8,
+    "effect": 0.034877027627620655,
+    "CI95": [
+      -0.029186258386716048,
+      0.10443936572635504
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Mixed directions omitted;zero-gap pairs may overlap",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 10,
+        "controls": 19,
+        "case_mean": 0.3370002994575306,
+        "control_mean": 0.3208609146751036
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 10,
+        "controls": 36,
+        "case_mean": 0.19755582314591288,
+        "control_mean": 0.2168757107146325
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 5,
+        "controls": 15,
+        "case_mean": 0.4765990872778481,
+        "control_mean": 0.2485357326100786
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 11,
+        "controls": 32,
+        "case_mean": 0.3466994236485691,
+        "control_mean": 0.2274705749940208
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 8,
+        "controls": 19,
+        "case_mean": 0.5243195520032993,
+        "control_mean": 0.44172414571003055
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 8,
+        "controls": 16,
+        "case_mean": 0.24114921456288496,
+        "control_mean": 0.33089807071035365
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 18,
+        "controls": 30,
+        "case_mean": 0.20772765685655428,
+        "control_mean": 0.21444888388783936
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 4,
+        "controls": 15,
+        "case_mean": 0.3513163607407003,
+        "control_mean": 0.380081761900793
+      }
+    ]
+  },
+  {
+    "group": "HYPOKALEMIA",
+    "analysis": "exclude_hemolysis_mentions",
+    "eligible_cases": 194,
+    "eligible_controls": 634,
+    "common_cases": 194,
+    "common_controls": 634,
+    "strata": 9,
+    "effect": 0.0184960915699079,
+    "CI95": [
+      -0.020135800935504117,
+      0.05607417628251894
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Exclusion in both arms;text is unadjudicated",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 18,
+        "controls": 53,
+        "case_mean": 0.2462335257101322,
+        "control_mean": 0.23768830867812954
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 30,
+        "controls": 118,
+        "case_mean": 0.19901832196880317,
+        "control_mean": 0.22772043628497785
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 10,
+        "controls": 57,
+        "case_mean": 0.27129310510487487,
+        "control_mean": 0.26081404826210436
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 15,
+        "controls": 44,
+        "case_mean": 0.37571800665772886,
+        "control_mean": 0.28052165294836995
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 25,
+        "controls": 94,
+        "case_mean": 0.27908357943828394,
+        "control_mean": 0.2242500244651043
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 17,
+        "controls": 52,
+        "case_mean": 0.4421686979200994,
+        "control_mean": 0.36363093510314537
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 17,
+        "controls": 49,
+        "case_mean": 0.31675907336849174,
+        "control_mean": 0.2878900708876254
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 39,
+        "controls": 102,
+        "case_mean": 0.22006929639630604,
+        "control_mean": 0.22002810760052863
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 23,
+        "controls": 65,
+        "case_mean": 0.36897738979576106,
+        "control_mean": 0.38101694324203605
+      }
+    ]
+  },
+  {
+    "group": "HYPOKALEMIA",
+    "analysis": "exclude_source_time_disagreement",
+    "eligible_cases": 200,
+    "eligible_controls": 650,
+    "common_cases": 200,
+    "common_controls": 650,
+    "strata": 9,
+    "effect": 0.019560229263734265,
+    "CI95": [
+      -0.01815551769248475,
+      0.05821115575633753
+    ],
+    "status": "estimated",
+    "reason": "",
+    "note": "Already required for all primary/QC pairs;identical by construction",
+    "cells": [
+      {
+        "stratum": "('02-12', 'RR100-200')",
+        "cases": 19,
+        "controls": 55,
+        "case_mean": 0.2591720311408208,
+        "control_mean": 0.25175399475867594
+      },
+      {
+        "stratum": "('02-12', 'RR<=100')",
+        "cases": 32,
+        "controls": 118,
+        "case_mean": 0.19126977956537572,
+        "control_mean": 0.22772043628497785
+      },
+      {
+        "stratum": "('02-12', 'RR>200')",
+        "cases": 11,
+        "controls": 60,
+        "case_mean": 0.3006722330033362,
+        "control_mean": 0.26362799608861925
+      },
+      {
+        "stratum": "('12-24', 'RR100-200')",
+        "cases": 16,
+        "controls": 46,
+        "case_mean": 0.38549054587417797,
+        "control_mean": 0.28792365635022493
+      },
+      {
+        "stratum": "('12-24', 'RR<=100')",
+        "cases": 26,
+        "controls": 98,
+        "case_mean": 0.26938571728588506,
+        "control_mean": 0.22108089021641208
+      },
+      {
+        "stratum": "('12-24', 'RR>200')",
+        "cases": 17,
+        "controls": 53,
+        "case_mean": 0.4421686979200994,
+        "control_mean": 0.3689813051980196
+      },
+      {
+        "stratum": "('24-48', 'RR100-200')",
+        "cases": 17,
+        "controls": 51,
+        "case_mean": 0.31675907336849174,
+        "control_mean": 0.27767968094925705
+      },
+      {
+        "stratum": "('24-48', 'RR<=100')",
+        "cases": 39,
+        "controls": 104,
+        "case_mean": 0.22006929639630604,
+        "control_mean": 0.21936429183971157
+      },
+      {
+        "stratum": "('24-48', 'RR>200')",
+        "cases": 23,
+        "controls": 65,
+        "case_mean": 0.36897738979576106,
+        "control_mean": 0.38101694324203605
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "individual_QC_records": 2037,
+  "individual_passes": 1990,
+  "failure_flags": {
+    "read_or_extraction_ValueError": 33,
+    "nonfinite_gt1percent": 7,
+    "flat_or_insufficient_lead": 7,
+    "large_amplitude": 1
+  },
+  "failure_flag_scope": "Distinct ECG records per flag; flags may overlap",
+  "hyper_hypo_patient_overlap": 5,
+  "case_control_patient_overlap": 0,
+  "QC_flags_match_post_retrieval_record": true,
+  "header_clocks_verified_as_metadata_only": true,
+  "physical_clocks_verified": false
+}

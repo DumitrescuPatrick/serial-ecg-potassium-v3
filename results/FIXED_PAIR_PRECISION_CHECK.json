@@ -1,0 +1,68 @@
+{
+  "fixed_counts": {
+    "HYPERKALEMIA": 122,
+    "HYPOKALEMIA": 200,
+    "STABLE_CONTROL": 650
+  },
+  "unique_patients": 967,
+  "case_group_overlap": 5,
+  "saved_outcome_reconstruction_max_error": 0.0,
+  "numerical_materiality_threshold_logunits": 1e-05,
+  "contrast_shift_bounds": [
+    {
+      "group": "HYPERKALEMIA",
+      "max_possible_fixed_weight_contrast_shift": 1.9221509872657805e-07,
+      "nearest_four_decimal_rounding_boundary": 1.9333123580091184e-05,
+      "CI_zero_margin": 0.02103066687641991
+    },
+    {
+      "group": "HYPOKALEMIA",
+      "max_possible_fixed_weight_contrast_shift": 1.9866071387930617e-07,
+      "nearest_four_decimal_rounding_boundary": 5.517692484750114e-06,
+      "CI_zero_margin": 0.01815551769248475
+    }
+  ],
+  "group_discrepancies": [
+    {
+      "group": "HYPERKALEMIA",
+      "pairs": 122,
+      "pair_native32_vs_original64_max": 1.9221509872657805e-07,
+      "pair_native32_vs_original64_median": 4.9471980234638835e-08,
+      "pair_native32_vs_reduction64_max": 1.960152498092782e-07,
+      "pair_native32_vs_reduction64_median": 4.8367866933851644e-08,
+      "absolute_outcome_discrepancy_to_uniform64_max": 1.9221509872657805e-07,
+      "absolute_outcome_discrepancy_to_uniform64_median": 4.9471980234638835e-08,
+      "max_ECG_logscore_native32_vs_original64_max": 1.374374467566497e-07,
+      "max_ECG_logscore_native32_vs_original64_median": 5.63769955996829e-08
+    },
+    {
+      "group": "HYPOKALEMIA",
+      "pairs": 200,
+      "pair_native32_vs_original64_max": 1.9866071387930617e-07,
+      "pair_native32_vs_original64_median": 5.113184237126589e-08,
+      "pair_native32_vs_reduction64_max": 1.9698727005135197e-07,
+      "pair_native32_vs_reduction64_median": 5.078514925260791e-08,
+      "absolute_outcome_discrepancy_to_uniform64_max": 1.9866071387930617e-07,
+      "absolute_outcome_discrepancy_to_uniform64_median": 5.113184237126589e-08,
+      "max_ECG_logscore_native32_vs_original64_max": 1.4479038723536064e-07,
+      "max_ECG_logscore_native32_vs_original64_median": 5.623837606716364e-08
+    },
+    {
+      "group": "STABLE_CONTROL",
+      "pairs": 650,
+      "pair_native32_vs_original64_max": 2.4357430078447706e-07,
+      "pair_native32_vs_original64_median": 4.855027341266194e-08,
+      "pair_native32_vs_reduction64_max": 2.4246969099195326e-07,
+      "pair_native32_vs_reduction64_median": 4.715835894009146e-08,
+      "absolute_outcome_discrepancy_to_uniform64_max": 0.0,
+      "absolute_outcome_discrepancy_to_uniform64_median": 0.0,
+      "max_ECG_logscore_native32_vs_original64_max": 1.6802477542654515e-07,
+      "max_ECG_logscore_native32_vs_original64_median": 5.2202999645256654e-08
+    }
+  ],
+  "material_problem": false,
+  "no_effect_function_or_bootstrap_called": true,
+  "results_modified": false,
+  "interpretation": "Individual numerical-representation check,not a new effect analysis",
+  "completed_UTC": "2026-11-20T10:34:56.730728+00:00"
+}

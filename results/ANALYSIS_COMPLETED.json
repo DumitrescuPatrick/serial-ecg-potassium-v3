@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "reports/PHASE2_ANALYSIS_PLAN.md": "dd6d35021b03705d5df5bccd1d3b6cd1b97ade3af9d599d876519245b7e15672",
+    "results/INDEPENDENT_RETRIEVAL_QC_GATE.json": "62cdf86c52549406ffbd30f881fd46629b08505f1941b48693dd117a086a4617",
+    "private/pairs_verified.pkl": "36aaccef59392a5fff4b9785909e73f91ca63564240e204df38e6dd1a59ebe7a",
+    "private/qc_verified.json": "ce52a1f638f29548165a69e60098825e90e49c51c0d2928ef6c8b12ce718aeaf",
+    "frozen_effect_source_sha256": "c43df7d830e45e8c581e25b48f8c75871b5886d377ba870a1b59eece1f1ebe11"
+  },
+  "completed_UTC": "2026-11-20T03:08:55.218066+00:00",
+  "bootstrap_replicates": 2000,
+  "seed": 20261119,
+  "analysis_rows": 14,
+  "one_fixed_execution": true,
+  "selection_or_tuning_after_effect_results": false
+}

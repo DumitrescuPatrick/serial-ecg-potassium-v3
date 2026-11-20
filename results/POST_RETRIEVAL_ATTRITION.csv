@@ -1,0 +1,4 @@
+group,metadata_pairs,patients,both_waveforms_present,unreadable,signal_QC_failure,extraction_failure,QC_passing
+HYPERKALEMIA,126,126,126,0,2,2,122
+HYPOKALEMIA,211,211,211,0,4,7,200
+STABLE_CONTROL,682,682,682,0,8,24,650

@@ -1,0 +1,161 @@
+[
+  {
+    "role": "index",
+    "exists": true,
+    "readable": true,
+    "bytes": 70403124,
+    "sha256": "b6f113023e955406e924a9ce10c1108f3bf8080e14cfe2f3ba3a2e858ebb621b",
+    "columns": [
+      "subject_id",
+      "study_id",
+      "file_name",
+      "ecg_time",
+      "path"
+    ]
+  },
+  {
+    "role": "machine",
+    "exists": true,
+    "readable": true,
+    "bytes": 182674683,
+    "sha256": "56f6b1413221bce95bd6f48b28ca1acf27ae0b073d6f2c1d12f3af7500eabbb6",
+    "columns": [
+      "subject_id",
+      "study_id",
+      "cart_id",
+      "ecg_time",
+      "report_0",
+      "report_1",
+      "report_2",
+      "report_3",
+      "report_4",
+      "report_5",
+      "report_6",
+      "report_7",
+      "report_8",
+      "report_9",
+      "report_10",
+      "report_11",
+      "report_12",
+      "report_13",
+      "report_14",
+      "report_15",
+      "report_16",
+      "report_17",
+      "bandwidth",
+      "filtering",
+      "rr_interval",
+      "p_onset",
+      "p_end",
+      "qrs_onset",
+      "qrs_end",
+      "t_end",
+      "p_axis",
+      "qrs_axis",
+      "t_axis"
+    ]
+  },
+  {
+    "role": "labs",
+    "exists": true,
+    "readable": true,
+    "bytes": 2592909134,
+    "sha256": "2cd5e09b7e48c0189828854221f97e2e8568268eda82157c6933bf8e674d08d5",
+    "columns": [
+      "labevent_id",
+      "subject_id",
+      "hadm_id",
+      "specimen_id",
+      "itemid",
+      "order_provider_id",
+      "charttime",
+      "storetime",
+      "value",
+      "valuenum",
+      "valueuom",
+      "ref_range_lower",
+      "ref_range_upper",
+      "flag",
+      "priority",
+      "comments"
+    ]
+  },
+  {
+    "role": "dictionary",
+    "exists": true,
+    "readable": true,
+    "bytes": 13169,
+    "sha256": "b7afdda77b637a7afe4f2ddfcce19e6c6becad41da397e95631cc1d416de548f",
+    "columns": [
+      "itemid",
+      "label",
+      "fluid",
+      "category"
+    ]
+  },
+  {
+    "role": "patients",
+    "exists": true,
+    "readable": true,
+    "bytes": 2835586,
+    "sha256": "4c7507de7ecad8c5ba7647ea4d26018e88ff6672c5fc22ab59c2a5697d687cdd",
+    "columns": [
+      "subject_id",
+      "gender",
+      "anchor_age",
+      "anchor_year",
+      "anchor_year_group",
+      "dod"
+    ]
+  },
+  {
+    "role": "admissions",
+    "exists": true,
+    "readable": true,
+    "bytes": 19928140,
+    "sha256": "a9584ed88e9ed664a2f66f86a5cf9fd175c8bb0af50e3b6115598b19e978384e",
+    "columns": [
+      "subject_id",
+      "hadm_id",
+      "admittime",
+      "dischtime",
+      "deathtime",
+      "admission_type",
+      "admit_provider_id",
+      "admission_location",
+      "discharge_location",
+      "insurance",
+      "language",
+      "marital_status",
+      "race",
+      "edregtime",
+      "edouttime",
+      "hospital_expire_flag"
+    ]
+  },
+  {
+    "role": "ed",
+    "exists": true,
+    "readable": true,
+    "bytes": 10267347,
+    "sha256": "33b3f4f07a075d725289241201fc39426437506688ebfc4cb69f45a5052a56d6",
+    "columns": [
+      "subject_id",
+      "hadm_id",
+      "stay_id",
+      "intime",
+      "outtime",
+      "gender",
+      "race",
+      "arrival_transport",
+      "disposition"
+    ]
+  },
+  {
+    "role": "extractor",
+    "exists": true,
+    "readable": true,
+    "bytes": 12318,
+    "sha256": "03ce00469e8e45faf9c83c01d2ebbdd2874590d1efc4ac43b13304fa0fb3480c"
+  }
+]

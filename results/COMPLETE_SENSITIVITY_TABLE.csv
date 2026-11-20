@@ -1,0 +1,15 @@
+group,analysis,eligible_cases,eligible_controls,common_cases,common_controls,strata,effect,CI95,status,reason,note
+HYPERKALEMIA,primary_30min,122,650,122,650,9,0.052202686520790124,"[-0.02103066687641991, 0.13212604682620446]",estimated,,Primary frozen cohort
+HYPERKALEMIA,both_labs_15min,41,220,39,201,8,-0.046138133579824374,"[-0.10023039093296474, 0.011817888647072896]",estimated,,Subset only;no new matches
+HYPERKALEMIA,window_60min_frozen_matches,122,650,122,650,9,0.052202686520790124,"[-0.02103066687641991, 0.13212604682620446]",estimated,,Identical by construction;not a newly linked60min cohort
+HYPERKALEMIA,both_collections_at_or_before,28,145,26,105,7,0.09901923099461621,"[-0.031660989046795845, 0.259438628102915]",estimated,,Mixed directions omitted
+HYPERKALEMIA,both_collections_at_or_after,46,202,42,155,7,0.03599647597043889,"[-0.08247772444990424, 0.18349669478648759]",estimated,,Mixed directions omitted;zero-gap pairs may overlap
+HYPERKALEMIA,exclude_hemolysis_mentions,106,634,106,634,9,0.05157397184352479,"[-0.01992384412891253, 0.13468241249039226]",estimated,,Exclusion in both arms;text is unadjudicated
+HYPERKALEMIA,exclude_source_time_disagreement,122,650,122,650,9,0.052202686520790124,"[-0.02103066687641991, 0.13212604682620446]",estimated,,Already required for all primary/QC pairs;identical by construction
+HYPOKALEMIA,primary_30min,200,650,200,650,9,0.019560229263734265,"[-0.01815551769248475, 0.05821115575633753]",estimated,,Primary frozen cohort
+HYPOKALEMIA,both_labs_15min,73,220,71,207,8,0.03917411490131672,"[-0.02513852320286805, 0.10474413497992997]",estimated,,Subset only;no new matches
+HYPOKALEMIA,window_60min_frozen_matches,200,650,200,650,9,0.019560229263734265,"[-0.01815551769248475, 0.05821115575633753]",estimated,,Identical by construction;not a newly linked60min cohort
+HYPOKALEMIA,both_collections_at_or_before,37,145,36,130,8,0.01945768672775957,"[-0.056895389232393546, 0.09550071769842822]",estimated,,Mixed directions omitted
+HYPOKALEMIA,both_collections_at_or_after,76,202,74,182,8,0.034877027627620655,"[-0.029186258386716048, 0.10443936572635504]",estimated,,Mixed directions omitted;zero-gap pairs may overlap
+HYPOKALEMIA,exclude_hemolysis_mentions,194,634,194,634,9,0.0184960915699079,"[-0.020135800935504117, 0.05607417628251894]",estimated,,Exclusion in both arms;text is unadjudicated
+HYPOKALEMIA,exclude_source_time_disagreement,200,650,200,650,9,0.019560229263734265,"[-0.01815551769248475, 0.05821115575633753]",estimated,,Already required for all primary/QC pairs;identical by construction

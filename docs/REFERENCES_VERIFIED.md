@@ -1,0 +1,8 @@
+# Citation verification — 20 November 2026
+
+1. Tsai C, Patel H, Horbal P, et al. Int J Cardiol 2023;391:131257. Title and author list checked through PubMed https://pubmed.ncbi.nlm.nih.gov/37574026/ ; DOI 10.1016/j.ijcard.2023.131257. Supports prior serial hyperkalemia amplitude/QRS research; it does not validate this eight-lead feature or the present hypokalemia comparison.
+2. Montague BT, Ouellette JR, Buller GK. Clin J Am Soc Nephrol 2008;3:324–330. PubMed https://pubmed.ncbi.nlm.nih.gov/18235147/ and primary full text https://pmc.ncbi.nlm.nih.gov/articles/PMC2390954/ ; DOI 10.2215/CJN.04611007. Supports heterogeneity of recorded ECG changes, not diagnostic reliability of the present score.
+3. Johnson AEW, Bulgarelli L, Shen L, et al. Sci Data 2023;10:1. PubMed https://pubmed.ncbi.nlm.nih.gov/36596836/ and publisher https://www.nature.com/articles/s41597-022-01899-x ; DOI 10.1038/s41597-022-01899-x. Dataset description, not evidence of which local hospital/ED release was acquired.
+4. von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP. PLoS Med 2007;4:e296. Primary article https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040296 ; DOI 10.1371/journal.pmed.0040296. Reporting guidance, not a claim that pending administrative items are complete.
+
+Provider provenance: MIMIC-IV-ECG official v1.0 https://physionet.org/content/mimic-iv-ecg/1.0/ ; DOI 10.13026/4nqg-sb35, published 15 September 2023. Official patients and labevents documentation URLs appear in the supplement. Broken slash-ending documentation links were replaced with the verified .html URLs. Earlier manuscript DOI spacing errors were corrected. Hospital/ED release verification remains unresolved; no release number was invented.

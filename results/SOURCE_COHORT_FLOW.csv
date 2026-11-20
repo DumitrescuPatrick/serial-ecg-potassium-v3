@@ -1,0 +1,9 @@
+stage,ecgs,patients
+full_provider_index,800035,161352
+index_machine_time_agreement,782185,160229
+adult,782079,160183
+unique_corroborated_hospital_encounter,454805,108028
+pre_admission_ECGs_require_matching_ED_stay,399847,99531
+nearest_valid_lab_within30min_before_admission_filter,74662,43768
+recorded_lab_admission_equal_to_corroborated_ECG_encounter,33463,23120
+unambiguous_nonmissing_specimen,33440,23107
